@@ -1,0 +1,164 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: calc(1rem + 2vw);
+  background-color: var(--tertiary-color);
+
+  &__desgin,
+  &__coding {
+    padding: calc(1rem + 2vw);
+    text-transform: uppercase;
+    flex-basis: 40rem;
+    flex-grow: 1;
+  }
+  &__desgin--title,
+  &__coding--title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  &__desgin h4,
+  &__coding h4 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  &__desgin--progress,
+  &__coding--progress {
+    position: relative;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--primary-color);
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  &__desgin--progress span,
+  &__coding--progress span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 2rem;
+    width: 5rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+  }
+  &__desgin {
+    &--progress {
+      &__1 {
+        animation: desgin-1  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__2 {
+        animation: desgin-2  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__3 {
+        animation: desgin-3  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__4 {
+        animation: desgin-4  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+    }
+  }
+  &__coding {
+    &--progress {
+      &__1 {
+        animation: coding-1  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__2 {
+        animation: coding-2  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__3 {
+        animation: coding-3  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__4 {
+        animation: coding-4  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 610px) {
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: calc(1rem + 2vw);
+  background-color: var(--tertiary-color);
+
+  &__desgin,
+  &__coding {
+    padding: calc(1rem + 2vw);
+    text-transform: uppercase;
+    flex-basis: 40rem;
+    flex-grow: 1;
+  }
+  &__desgin--title,
+  &__coding--title {
+    font-size: calc(1rem + 2vw);
+    margin-bottom: 2rem;
+  }
+  &__desgin h4,
+  &__coding h4 {
+    font-size: calc(0.6rem + 2vw);
+    color: #fff;
+  }
+  &__desgin--progress,
+  &__coding--progress {
+    position: relative;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--primary-color);
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  &__desgin--progress span,
+  &__coding--progress span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 2rem;
+    width: 5rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+  }
+  &__desgin {
+    &--progress {
+      &__1 {
+        animation: desgin-1  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__2 {
+        animation: desgin-2  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__3 {
+        animation: desgin-3  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__4 {
+        animation: desgin-4  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+    }
+  }
+  &__coding {
+    &--progress {
+      &__1 {
+        animation: coding-1  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__2 {
+        animation: coding-2  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__3 {
+        animation: coding-3  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+      &__4 {
+        animation: coding-4  4s infinite cubic-bezier(1, 0, 0, 1);
+      }
+    }
+  }
+}
+
+
+}

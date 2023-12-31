@@ -1,0 +1,87 @@
+@keyframes hero {
+  0% {
+    transform: translateX(100rem)rotate(360deg);
+  opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+   opacity: 1;
+  }
+}
+
+
+@keyframes desgin-1 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 80%;
+  }
+}
+@keyframes desgin-2 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 90%;
+  }
+}
+@keyframes desgin-3 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 85%;
+  }
+}
+@keyframes desgin-4 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 100%;
+  }
+}
+
+@keyframes coding-1 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 85%;
+  }
+}
+@keyframes coding-2 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 95%;
+  }
+}
+@keyframes coding-3 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 75%;
+  }
+}
+@keyframes coding-4 {
+  0% {
+    width: 0;
+
+  }
+  100% {
+  width: 60%;
+  }
+}
+
+

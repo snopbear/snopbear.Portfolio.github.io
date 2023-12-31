@@ -1,0 +1,38 @@
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-* Start Aside Nav *-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+.side-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    height: 100%;
+    &--logo {
+      display: inline-block;
+      width: calc(3vw + 3vh);
+    }
+    &--social {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 2rem;
+      &__link {
+        &--icon {
+          font-size: calc(1rem + 0.66667vw);
+          color: #fff;
+          padding-bottom: calc(2rem + 0.66667vw);
+          transition: color 0.35s cubic-bezier(0.68,-0.55,0.265,1.55);
+          &:hover,:active{
+            color: var(--secondary-color);
+          }
+
+        }
+      }
+    }
+  }
+}
