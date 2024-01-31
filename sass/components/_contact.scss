@@ -1,0 +1,46 @@
+.contact {
+  height: 100vh;
+  background-image: url("../../img/full-bg-03.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40rem;
+    background-color: var(--tertiary-color-m);
+    & > input,
+    textarea {
+      color: #fff;
+      font-family: "Indie Flower", cursive;
+      font-size: 1.5rem;
+      letter-spacing: 0.2rem;
+      padding: 2rem;
+      background-color: transparent;
+      border: none;
+      border-bottom: 0.1rem solid var(--secondary-color);
+    }
+    & > input::placeholder,
+    textarea::placeholder {
+      color: #fff;
+      opacity: 1; /* Firefox */
+    }
+    & textarea {
+        height: 30vh;
+    }
+    &--submit {
+        border: none;
+        cursor: pointer;
+       
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 460px) {
+  .contact {
+    background-position: 5% 5%;
+  }
+}
