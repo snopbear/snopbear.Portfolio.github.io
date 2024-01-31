@@ -592,7 +592,7 @@ main {
 
 .contact {
   height: 100vh;
-  background-image: url("../../img/full-bg-03.jpg");
+  background-image: url("../img/full-bg-03.jpg");
   background-size: cover;
   display: flex;
   justify-content: flex-end;
